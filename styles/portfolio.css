@@ -75,5 +75,44 @@
     font-weight: 400;
     line-height: 30px;
 
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.rectangle1 {
+    width: 464px;
+    height: 538px;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
     
 }
+
+.container .Image1 {
+    width: 310px;
+    height: 428px;
+    display: flex;
+    margin-top: 110px;
+
+}
+.container-text1{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-top: 60px
+}
+
