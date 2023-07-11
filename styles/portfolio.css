@@ -122,7 +122,7 @@ body {
 
 .rectangle2 .image2 {
     width: 370px;
-height: 370px;
+    height: 370px;
     margin: 0px 70px;
     padding-top: 110px;
 }
@@ -131,7 +131,7 @@ height: 370px;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-background: rgba(71, 125, 17, 0.15);
+    background: rgba(71, 125, 17, 0.15);
 }
 
 .rectangle3 .image3 {
@@ -140,7 +140,8 @@ background: rgba(71, 125, 17, 0.15);
     margin: 0px 70px;
     padding-top: 65px;
 }
-.rectangle1-text{
+
+.rectangle1-text {
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -150,7 +151,7 @@ background: rgba(71, 125, 17, 0.15);
     padding-top: 10px;
 }
 
-.rectangle2-text{
+.rectangle2-text {
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -160,7 +161,7 @@ background: rgba(71, 125, 17, 0.15);
     padding-top: 70px;
 }
 
-.rectangle3-text{
+.rectangle3-text {
     display: flex;
     justify-content: center;
     text-decoration: underline;
@@ -169,19 +170,80 @@ background: rgba(71, 125, 17, 0.15);
     font-weight: 600;
     padding-top: 10px;
 }
+
 /*logo part*/
 
-.support{
+.support {
     background-color: #2727270D;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.1);
     margin: 50px 185px;
     height: 250px;
 }
-.logo{
+
+.logo {
     padding-top: 60px;
     justify-content: center;
     display: flex;
     gap: 500px;
+
+}
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 215px;
+}
+
+.hd-text {
+    align-content: center;
+}
+
+.hd-text1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.highlight {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hd-text2 {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.signup-button {
+    padding: 20px 43px;
+    align-items:center;
+    margin-left: 200px;
+    border-radius: 8px;
+    background: #E55473;
+   margin-top: 20px;
     
 }
