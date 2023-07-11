@@ -307,20 +307,26 @@ body {
 
 }
 
-input[type="email"] {
-    width: 700px;
-    height: 64px;
-    border: none;
-    margin: 0px 15px;
+.div2 input{
     color: #FFFFFF;
+    height: 64px;
+    width: 700px;
+    
 }
 
-.butn {
-    
+
+.div2 button{
+    height: 68px;
     width: 150px;
-    height: 64px;
     border-radius: 8px;
-    color: #E55473;
+    margin-left: 16px;
+    background-color: #E55473;
+    justify-content: center; 
+}
+.div2 button p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lato';
 }
 /*footer section*/
 
