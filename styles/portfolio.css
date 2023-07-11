@@ -1,7 +1,4 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
+
 
 body {
     font-family: 'Lato', sans-serif;
@@ -94,6 +91,7 @@ body {
     justify-content: space-around;
     gap: 50px;
     margin: 20px;
+    margin-top: 30px;
 }
 
 
@@ -169,6 +167,11 @@ body {
     font-size: large;
     font-weight: 600;
     padding-top: 10px;
+
+}
+
+.f1 {
+    margin-top: 60px;
 }
 
 /*logo part*/
@@ -186,7 +189,7 @@ body {
     justify-content: center;
     display: flex;
     gap: 500px;
-
+    margin-top: 30px;
 }
 
 .hot-deal {
@@ -199,6 +202,7 @@ body {
     align-items: center;
     padding: 0px 100px;
     gap: 215px;
+    padding: 30px 30px 0px 150px;
 }
 
 .hd-text {
@@ -240,10 +244,107 @@ body {
 
 .signup-button {
     padding: 20px 43px;
-    align-items:center;
+    align-items: center;
     margin-left: 200px;
     border-radius: 8px;
     background: #E55473;
-   margin-top: 20px;
+    margin-top: 20px;
+
+}
+
+.instra {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.instra-text1 {
+    color: #272727;
+    font-size: 40px;
+    font-family: 'Lato';
+    font-weight: 800px;
+    line-height: normal;
+}
+
+.instra-text2 {
+    color: #27272799;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 30px;
+}
+
+
+.instra-img {
+    margin-top: 60px;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.latest {
+    background-image: url(Rectangle9.png);
+    height: 349px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 128px;
+
+}
+
+.div1 {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.latest-text2 {
+    padding-top: 10px;
+}
+
+.div2 {
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+input[type="email"] {
+    width: 700px;
+    height: 64px;
+    border: none;
+    margin: 0px 15px;
+    color: #FFFFFF;
+}
+
+.butn {
     
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    color: #E55473;
+}
+/*footer section*/
+
+footer {
+    background-color: #111010;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.footer-text>.small-text {
+    color: #FFFFFF66;
+    padding-bottom: 10px;
+}
+
+#last-foot {
+    color: #FFFFFF66;
+    font-size: 16px;
+    font-weight: 400;
 }
