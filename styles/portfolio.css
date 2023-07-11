@@ -1,3 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
 /*header related style*/
 .header {
     background-color: #E554731A;
@@ -81,38 +92,96 @@
 .container {
     display: flex;
     justify-content: space-around;
+    gap: 50px;
+    margin: 20px;
 }
 
 
 .rectangle1 {
     width: 464px;
     height: 538px;
-    background-color: #ccc;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    
+
 }
 
-.container .Image1 {
+.rectangle1 .image1 {
     width: 310px;
     height: 428px;
+    margin: 0px 70px;
+    padding-top: 110px;
+}
+
+.rectangle2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.rectangle2 .image2 {
+    width: 370px;
+height: 370px;
+    margin: 0px 70px;
+    padding-top: 110px;
+}
+
+.rectangle3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+}
+
+.rectangle3 .image3 {
+    width: 314px;
+    height: 471px;
+    margin: 0px 70px;
+    padding-top: 65px;
+}
+.rectangle1-text{
     display: flex;
-    margin-top: 110px;
-
-}
-.container-text1{
-    color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
-margin-top: 60px
+    justify-content: center;
+    text-decoration: underline;
+    gap: 240px;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 10px;
 }
 
+.rectangle2-text{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    gap: 240px;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 70px;
+}
+
+.rectangle3-text{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    gap: 240px;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 10px;
+}
+/*logo part*/
+
+.support{
+    background-color: #2727270D;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.1);
+    margin: 50px 185px;
+    height: 250px;
+}
+.logo{
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    gap: 500px;
+    
+}
